@@ -11,7 +11,6 @@ namespace WindowsFormsApp1
         private double[,] matrix; // Матрица смежности
         private int k; // Следующий шаг для k-го состояния
         private int totalVertices; // Размерность матрицы
-
         // Конструктор, принимающий матрицу смежности
         public BFSSolver(double[,] adjacencyMatrix)
         {
